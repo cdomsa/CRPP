@@ -40,4 +40,6 @@ This repository contains one directory:
    + K : Number of customers (`|K|` in the paper),
    + I : Number of products (`|I|` in the paper),
    + C : Number of copies of each product for sale.
+   + PREFERENCES : The preference matrix, where entrance `(k,i) = n` iff `i` is the `n`-eth product in the list of preferences of `k`, and `(k,i) = 0` if product `i` does not belong to `I^k`.
+   + RESERVATION PRICES : The reservation prices matrix, where entrance `(k,i) = p` if customer `k` has a reservation price of `p` for product `i`, and 0 if product `i` does not belong to `I^k`.
 
